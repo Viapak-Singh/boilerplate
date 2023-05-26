@@ -12,6 +12,8 @@
             "email": "vip8work@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.1"
+    },
     "minimum-stability": "stable"
 }
