@@ -1,0 +1,16 @@
+{
+    "name": "boilerplate/test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Boilerplate\\Test\\": "resources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viapak-Singh",
+            "email": "vip8work@gmail.com"
+        }
+    ],
+    "require": {}
+}
