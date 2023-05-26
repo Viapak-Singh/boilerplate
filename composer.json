@@ -1,6 +1,11 @@
 {
     "name": "boilerplate/test",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Boilerplate\\Test\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Viapak-Singh",
@@ -9,14 +14,6 @@
     ],
     "require": {
         "php": "^8.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Boilerplate\\Test\\": "resources/"
-        },
-        "files": [
-            "resources/views/login.blade.php"
-        ]
     },
     "minimum-stability": "stable",
     "prefer-stable": true
