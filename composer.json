@@ -15,6 +15,13 @@
     "require": {
         "php": "^8.1"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Boilerplate\\Providers\\BoilerplateProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
