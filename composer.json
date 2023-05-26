@@ -4,7 +4,10 @@
     "autoload": {
         "psr-4": {
             "Boilerplate\\Test\\": "resources/"
-        }
+        },
+        "files": [
+            "resources/views/login.blade.php"
+        ]
     },
     "authors": [
         {
