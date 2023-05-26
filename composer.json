@@ -1,6 +1,6 @@
 {
     "name": "boilerplate/test",
-    "type": "project",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Boilerplate\\Test\\": "resources/"
